@@ -1,0 +1,2472 @@
+[
+  {
+    "payroll": [
+      {
+        "id": "a5891de6-34bd-4524-a567-63cc8e535ca2",
+        "salary": 62834,
+        "bonus": 85362,
+        "deductions": 54574,
+        "net_pay": 23115,
+        "created_at": "2023-09-04T02:27:44.162Z",
+        "updated_at": "2023-09-03T16:04:58.489Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e952114-219c-40c0-83cc-5ac78f07893c",
+        "salary": 36282,
+        "bonus": 31298,
+        "deductions": 99858,
+        "net_pay": 91773,
+        "created_at": "2023-09-04T08:08:45.724Z",
+        "updated_at": "2023-09-03T12:57:46.761Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb21e7aa-73b9-41a7-b5ae-fb1a8bdd9715",
+        "salary": 52928,
+        "bonus": 27552,
+        "deductions": 13976,
+        "net_pay": 60535,
+        "created_at": "2023-09-03T15:52:54.761Z",
+        "updated_at": "2023-09-03T18:41:30.654Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51059546-316e-4073-a9ed-6cf6edc03db3",
+        "salary": 87337,
+        "bonus": 28052,
+        "deductions": 82388,
+        "net_pay": 78890,
+        "created_at": "2023-09-03T10:45:02.047Z",
+        "updated_at": "2023-09-03T20:43:49.786Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ffc5fde-0379-4105-bc01-e683212f388c",
+        "salary": 7263,
+        "bonus": 25121,
+        "deductions": 751,
+        "net_pay": 97388,
+        "created_at": "2023-09-04T01:54:54.153Z",
+        "updated_at": "2023-09-03T22:55:59.116Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "76e82de8-1f40-4767-8660-bbd448109ba7",
+        "name": "Chef's Special",
+        "description": "A culinary masterpiece",
+        "price": 78912,
+        "availability": false,
+        "created_at": "2023-09-03T19:01:46.232Z",
+        "updated_at": "2023-09-03T12:53:56.204Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "f7c12b4e-e60c-46b3-a744-ba5cccd563c0",
+        "name": "Vegetarian Delight",
+        "description": "Fresh and flavorful",
+        "price": 71348,
+        "availability": true,
+        "created_at": "2023-09-04T07:00:35.167Z",
+        "updated_at": "2023-09-04T07:47:52.344Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "33796d9b-e425-4541-9fa1-81812a23ef76",
+        "name": "Seafood Extravaganza",
+        "description": "Indulge in exquisite flavors",
+        "price": 4216,
+        "availability": true,
+        "created_at": "2023-09-03T22:29:30.888Z",
+        "updated_at": "2023-09-03T10:18:23.950Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "a57609da-e000-452e-b84b-b89b954491f1",
+        "name": "Gourmet Brunch",
+        "description": "Delicious and satisfying",
+        "price": 35904,
+        "availability": false,
+        "created_at": "2023-09-03T13:21:43.597Z",
+        "updated_at": "2023-09-04T07:33:58.788Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "f0dee1b6-63fb-44b3-9b1d-e46cb169db55",
+        "name": "Farm-to-Table Experience",
+        "description": "A feast for the senses",
+        "price": 13645,
+        "availability": false,
+        "created_at": "2023-09-03T11:49:14.820Z",
+        "updated_at": "2023-09-03T10:16:21.746Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "menu_invitation": [
+      {
+        "id": "2f1cc923-6b39-43ef-bfeb-aba3bfe81942",
+        "status": "Pending",
+        "created_at": "2023-09-04T05:54:33.123Z",
+        "updated_at": "2023-09-03T14:06:33.360Z",
+        "menu_id": "76e82de8-1f40-4767-8660-bbd448109ba7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "112ee7da-ba10-41f5-9815-1a6e2afd9eb2",
+        "status": "Accepted",
+        "created_at": "2023-09-04T00:21:53.033Z",
+        "updated_at": "2023-09-03T23:14:01.556Z",
+        "menu_id": "33796d9b-e425-4541-9fa1-81812a23ef76",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e4ab6f2-8acf-4527-9450-83980407cddc",
+        "status": "Declined",
+        "created_at": "2023-09-03T21:32:11.752Z",
+        "updated_at": "2023-09-04T08:58:13.141Z",
+        "menu_id": "f0dee1b6-63fb-44b3-9b1d-e46cb169db55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5981ce58-377f-4684-abdd-5c8b2db8f80d",
+        "status": "Invited",
+        "created_at": "2023-09-04T02:33:19.571Z",
+        "updated_at": "2023-09-03T16:36:47.859Z",
+        "menu_id": "76e82de8-1f40-4767-8660-bbd448109ba7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bfa444f-5588-4fdb-8a2d-d38f0d2f7987",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T04:26:30.897Z",
+        "updated_at": "2023-09-03T11:11:50.864Z",
+        "menu_id": "f7c12b4e-e60c-46b3-a744-ba5cccd563c0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "a23bb3e8-7c35-4534-a5fa-c249b22adc25",
+        "position": "Manager",
+        "start_date": "2023-09-03T12:26:17.407Z",
+        "end_date": "2023-09-04T06:15:39.449Z",
+        "created_at": "2023-09-04T05:05:06.036Z",
+        "updated_at": "2023-09-03T12:19:09.180Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fadd243-5211-41f5-8c52-f653cbeecc03",
+        "position": "Supervisor",
+        "start_date": "2023-09-03T22:44:24.558Z",
+        "end_date": "2023-09-04T03:32:25.825Z",
+        "created_at": "2023-09-04T09:00:55.275Z",
+        "updated_at": "2023-09-03T10:20:20.610Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dea23d9-39c6-462d-beac-55d6c0aad536",
+        "position": "Front Desk Agent",
+        "start_date": "2023-09-03T20:24:18.279Z",
+        "end_date": "2023-09-03T23:53:23.037Z",
+        "created_at": "2023-09-03T20:37:03.414Z",
+        "updated_at": "2023-09-03T19:53:48.968Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ea18781-e1ac-4daa-ac02-d9eb6900e937",
+        "position": "Chef",
+        "start_date": "2023-09-03T19:30:32.697Z",
+        "end_date": "2023-09-03T18:44:18.646Z",
+        "created_at": "2023-09-03T16:24:45.423Z",
+        "updated_at": "2023-09-03T17:59:44.666Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d69d252-5e7a-4ffc-b515-919999923773",
+        "position": "Housekeeping Staff",
+        "start_date": "2023-09-04T02:23:31.590Z",
+        "end_date": "2023-09-03T20:19:51.899Z",
+        "created_at": "2023-09-03T21:55:07.960Z",
+        "updated_at": "2023-09-03T20:51:36.669Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c1f6dfb9-251c-4542-8dba-53ea4087389b",
+        "email": "Donna.Walsh90@gmail.com",
+        "firstName": "Jakayla",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29819946",
+        "tenantId": null
+      },
+      {
+        "reference": "fbf6a51f-cdb8-40ab-81bc-f64b4fd74260",
+        "email": "Jeremie_Osinski@hotmail.com",
+        "firstName": "Michelle",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/934.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6c22578f-61e8-4a88-930c-83d502fc3e39",
+        "email": "Estell40@gmail.com",
+        "firstName": "Antonio",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/740.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "78fc9a0a-5aad-450b-8337-9a43a3d45ed2",
+        "email": "Kay26@hotmail.com",
+        "firstName": "Orin",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/999.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "362411d2-8fc9-402a-8fea-f3be258c0102",
+        "email": "Jordi.McKenzie44@gmail.com",
+        "firstName": "Micheal",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27107340",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payroll": [
+      {
+        "id": "3e9d6053-9fcf-48d9-97c5-37e35751950b",
+        "salary": 99805,
+        "bonus": 81981,
+        "deductions": 60357,
+        "net_pay": 29482,
+        "created_at": "2023-09-03T09:50:14.386Z",
+        "updated_at": "2023-09-03T09:24:05.330Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adea7e4c-28c1-455f-b557-fc55e8d90ee9",
+        "salary": 81528,
+        "bonus": 86938,
+        "deductions": 47609,
+        "net_pay": 85622,
+        "created_at": "2023-09-04T08:24:34.186Z",
+        "updated_at": "2023-09-03T20:11:59.115Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c8bb6e1-1fdc-4d95-baf2-b13f70828da1",
+        "salary": 47572,
+        "bonus": 95357,
+        "deductions": 5465,
+        "net_pay": 91334,
+        "created_at": "2023-09-04T09:11:17.723Z",
+        "updated_at": "2023-09-04T06:31:33.057Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adbb8876-2031-4a14-ad87-d940ef3be949",
+        "salary": 85309,
+        "bonus": 86671,
+        "deductions": 25006,
+        "net_pay": 19558,
+        "created_at": "2023-09-04T00:37:20.025Z",
+        "updated_at": "2023-09-03T20:54:01.927Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b1ea0ed-7f0a-42ef-b59c-d4c6d81554a7",
+        "salary": 54430,
+        "bonus": 45547,
+        "deductions": 73267,
+        "net_pay": 54536,
+        "created_at": "2023-09-03T20:49:39.468Z",
+        "updated_at": "2023-09-04T05:12:47.285Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "2166b803-3998-44a8-839d-22ea2c465976",
+        "name": "Breakfast Menu",
+        "description": "Start your day with a delicious breakfast",
+        "price": 39678,
+        "availability": true,
+        "created_at": "2023-09-03T12:49:06.935Z",
+        "updated_at": "2023-09-04T05:21:22.211Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "0efa4cbe-c9c8-4966-a25d-80669a2922b0",
+        "name": "Lunch Menu",
+        "description": "Enjoy a satisfying lunch with a variety of options",
+        "price": 39314,
+        "availability": false,
+        "created_at": "2023-09-04T00:22:37.431Z",
+        "updated_at": "2023-09-04T04:46:51.434Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "c0048e9b-4115-4d17-9978-209058f8112f",
+        "name": "Dinner Menu",
+        "description": "Indulge in a delectable dinner experience",
+        "price": 63220,
+        "availability": true,
+        "created_at": "2023-09-03T13:07:16.706Z",
+        "updated_at": "2023-09-04T01:28:02.313Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "f1449831-37fa-4d6b-b864-26ba25e45a95",
+        "name": "Vegetarian Menu",
+        "description": "Discover our flavorful vegetarian dishes",
+        "price": 53900,
+        "availability": false,
+        "created_at": "2023-09-04T08:10:19.399Z",
+        "updated_at": "2023-09-03T23:24:48.525Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "319ad0d5-5b08-4469-aebe-cd3ee49af69e",
+        "name": "Chef's Special Menu",
+        "description": "Try our chef's unique creations",
+        "price": 43344,
+        "availability": false,
+        "created_at": "2023-09-03T10:54:34.249Z",
+        "updated_at": "2023-09-03T13:45:04.270Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "menu_invitation": [
+      {
+        "id": "7ffa91fb-7589-4b71-b627-8eac4d906ca0",
+        "status": "Pending",
+        "created_at": "2023-09-04T08:59:53.947Z",
+        "updated_at": "2023-09-03T22:51:27.505Z",
+        "menu_id": "0efa4cbe-c9c8-4966-a25d-80669a2922b0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd1a9443-8332-4a51-8b03-bf9851f679c5",
+        "status": "Accepted",
+        "created_at": "2023-09-04T07:51:00.320Z",
+        "updated_at": "2023-09-04T02:25:29.493Z",
+        "menu_id": "f1449831-37fa-4d6b-b864-26ba25e45a95",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "796236d2-7298-49e8-920a-34d9f7793beb",
+        "status": "Declined",
+        "created_at": "2023-09-04T03:27:05.082Z",
+        "updated_at": "2023-09-04T00:22:37.143Z",
+        "menu_id": "0efa4cbe-c9c8-4966-a25d-80669a2922b0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "518dbcca-aa44-49a6-b08d-7852317d0a4f",
+        "status": "Expired",
+        "created_at": "2023-09-03T13:27:25.762Z",
+        "updated_at": "2023-09-03T16:16:19.903Z",
+        "menu_id": "f1449831-37fa-4d6b-b864-26ba25e45a95",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3510832d-d47a-41f0-b110-d57996a43ad2",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T04:58:14.019Z",
+        "updated_at": "2023-09-03T13:41:55.451Z",
+        "menu_id": "f1449831-37fa-4d6b-b864-26ba25e45a95",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "a060d0fe-e4ed-4dc5-8f2a-65aa9a5bed5e",
+        "position": "Manager",
+        "start_date": "2023-09-03T18:05:17.277Z",
+        "end_date": "2023-09-03T15:11:04.528Z",
+        "created_at": "2023-09-03T19:32:22.747Z",
+        "updated_at": "2023-09-03T22:30:10.509Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16269a47-5f86-4f2a-8265-d70736894a9f",
+        "position": "Supervisor",
+        "start_date": "2023-09-03T21:38:06.989Z",
+        "end_date": "2023-09-04T04:46:44.451Z",
+        "created_at": "2023-09-04T00:29:55.792Z",
+        "updated_at": "2023-09-04T05:51:43.992Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2fc58bc-be2e-434c-8fcc-2612ebfdb9b9",
+        "position": "Front Desk Agent",
+        "start_date": "2023-09-03T15:34:00.123Z",
+        "end_date": "2023-09-03T10:07:52.294Z",
+        "created_at": "2023-09-04T01:44:38.820Z",
+        "updated_at": "2023-09-04T02:36:58.551Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "156eeef4-e517-4e0c-999f-70c214a82cd9",
+        "position": "Chef",
+        "start_date": "2023-09-04T03:20:48.484Z",
+        "end_date": "2023-09-03T22:45:09.324Z",
+        "created_at": "2023-09-03T23:18:58.754Z",
+        "updated_at": "2023-09-04T09:15:39.270Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cca25cc0-1f3d-42ef-92d8-866a6a179287",
+        "position": "Housekeeping Staff",
+        "start_date": "2023-09-03T19:39:07.681Z",
+        "end_date": "2023-09-04T03:43:14.360Z",
+        "created_at": "2023-09-03T12:23:54.853Z",
+        "updated_at": "2023-09-03T12:24:24.001Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "def0e44e-ab6f-4979-afd2-a579d5961998",
+        "email": "Henri_Mueller15@yahoo.com",
+        "firstName": "Filomena",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95840759",
+        "tenantId": null
+      },
+      {
+        "reference": "d777e36b-4ca9-4836-9545-04d6ee5df66c",
+        "email": "Guido.Morar19@yahoo.com",
+        "firstName": "Audra",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11526887",
+        "tenantId": null
+      },
+      {
+        "reference": "63021fae-0add-45ca-b3d4-81f6f0ab4647",
+        "email": "Antwon_Flatley45@hotmail.com",
+        "firstName": "Edythe",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67025187",
+        "tenantId": null
+      },
+      {
+        "reference": "b3a4dd7b-8803-4aeb-ab6e-181e2342719e",
+        "email": "Angela_Beer@gmail.com",
+        "firstName": "Johan",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/821.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "47d08316-b0dc-4d55-b27c-91ce03d6a4e9",
+        "email": "Demetrius.Stiedemann@yahoo.com",
+        "firstName": "Mariah",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/742.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payroll": [
+      {
+        "id": "65130f4f-010c-4842-b039-399fe76fcaaa",
+        "salary": 31046,
+        "bonus": 37471,
+        "deductions": 73881,
+        "net_pay": 96835,
+        "created_at": "2023-09-03T16:40:47.746Z",
+        "updated_at": "2023-09-03T22:28:25.391Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7196ec3a-c9fd-4928-8103-c54a1af4f8d1",
+        "salary": 41183,
+        "bonus": 80932,
+        "deductions": 31448,
+        "net_pay": 99522,
+        "created_at": "2023-09-03T14:17:28.797Z",
+        "updated_at": "2023-09-03T14:39:00.023Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9107a253-c495-4504-aa67-94ac4f54a70c",
+        "salary": 41251,
+        "bonus": 9745,
+        "deductions": 3039,
+        "net_pay": 33877,
+        "created_at": "2023-09-04T00:51:52.338Z",
+        "updated_at": "2023-09-03T13:04:00.029Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "305c6a20-724b-4590-a847-19573954b2e2",
+        "salary": 18708,
+        "bonus": 42991,
+        "deductions": 14286,
+        "net_pay": 60763,
+        "created_at": "2023-09-03T13:22:19.549Z",
+        "updated_at": "2023-09-04T07:45:20.029Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "457b2520-d291-4361-a3bb-c02dad6be773",
+        "salary": 78631,
+        "bonus": 70654,
+        "deductions": 16551,
+        "net_pay": 54007,
+        "created_at": "2023-09-03T16:37:19.582Z",
+        "updated_at": "2023-09-03T15:34:43.195Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "f58e8ac1-8100-4903-97f9-f7eca02417af",
+        "name": "Gourmet Delights",
+        "description": "Indulge in a culinary journey",
+        "price": 95632,
+        "availability": true,
+        "created_at": "2023-09-04T04:41:44.948Z",
+        "updated_at": "2023-09-03T18:39:36.983Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "853be7d4-eff5-4fdb-bb38-2b9022a61bb1",
+        "name": "Farm-to-Table Specials",
+        "description": "Savor the flavors of local ingredients",
+        "price": 38288,
+        "availability": false,
+        "created_at": "2023-09-04T07:44:28.889Z",
+        "updated_at": "2023-09-04T01:56:47.246Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "81e1d1af-b277-4459-89cc-216ed4a0ab6a",
+        "name": "International Fusion Cuisine",
+        "description": "Experience a unique blend of global cuisines",
+        "price": 17511,
+        "availability": true,
+        "created_at": "2023-09-03T11:23:37.814Z",
+        "updated_at": "2023-09-03T16:11:20.351Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "cdc21061-78e1-4972-b80e-7dba3459ea48",
+        "name": "Healthy Vegan Options",
+        "description": "Discover wholesome plant-based dishes",
+        "price": 3874,
+        "availability": true,
+        "created_at": "2023-09-03T11:45:43.748Z",
+        "updated_at": "2023-09-04T09:17:23.275Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "3e600aca-bd89-44f7-b223-300f0d2cde83",
+        "name": "Signature Chef's Selection",
+        "description": "Taste the chef's exquisite creations",
+        "price": 3493,
+        "availability": false,
+        "created_at": "2023-09-03T15:16:47.000Z",
+        "updated_at": "2023-09-03T16:19:00.443Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "menu_invitation": [
+      {
+        "id": "5a610a3b-96a9-46cd-b1d3-80b912c90b60",
+        "status": "Pending",
+        "created_at": "2023-09-03T13:53:31.114Z",
+        "updated_at": "2023-09-03T12:39:02.221Z",
+        "menu_id": "f58e8ac1-8100-4903-97f9-f7eca02417af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b53e329-9210-47ea-8fcf-d2a630d4d7ca",
+        "status": "Accepted",
+        "created_at": "2023-09-03T17:48:11.790Z",
+        "updated_at": "2023-09-04T02:11:24.653Z",
+        "menu_id": "3e600aca-bd89-44f7-b223-300f0d2cde83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1691b1c-5cfb-48ae-9737-73b5e62ce2fa",
+        "status": "Declined",
+        "created_at": "2023-09-03T10:05:34.899Z",
+        "updated_at": "2023-09-04T03:51:01.875Z",
+        "menu_id": "81e1d1af-b277-4459-89cc-216ed4a0ab6a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4312a68d-b53a-4162-87ca-aa2ec59d3c7e",
+        "status": "Expired",
+        "created_at": "2023-09-04T00:39:10.230Z",
+        "updated_at": "2023-09-04T07:27:43.448Z",
+        "menu_id": "81e1d1af-b277-4459-89cc-216ed4a0ab6a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbd44a2b-176b-40f5-b572-758f1aa89bf0",
+        "status": "Cancelled",
+        "created_at": "2023-09-03T12:28:21.686Z",
+        "updated_at": "2023-09-04T01:17:24.756Z",
+        "menu_id": "81e1d1af-b277-4459-89cc-216ed4a0ab6a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "038dacb4-202b-4ec9-9515-04b2c7c1ef47",
+        "position": "Manager",
+        "start_date": "2023-09-03T21:55:58.713Z",
+        "end_date": "2023-09-03T22:24:04.841Z",
+        "created_at": "2023-09-03T21:36:01.059Z",
+        "updated_at": "2023-09-03T11:46:23.773Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4a4482a-8339-41af-b78c-32777e267d79",
+        "position": "Supervisor",
+        "start_date": "2023-09-03T15:05:35.541Z",
+        "end_date": "2023-09-03T15:20:48.997Z",
+        "created_at": "2023-09-03T09:40:31.309Z",
+        "updated_at": "2023-09-03T18:59:05.255Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "116c5c0c-9072-40b7-b3e3-56eecd0538cb",
+        "position": "Front Desk Agent",
+        "start_date": "2023-09-03T18:24:03.031Z",
+        "end_date": "2023-09-03T23:28:24.321Z",
+        "created_at": "2023-09-03T15:12:41.067Z",
+        "updated_at": "2023-09-03T22:08:05.352Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04d066da-8390-43a9-bcff-ed7d86e2e116",
+        "position": "Housekeeping Staff",
+        "start_date": "2023-09-03T22:40:20.021Z",
+        "end_date": "2023-09-04T03:00:48.567Z",
+        "created_at": "2023-09-03T19:02:16.915Z",
+        "updated_at": "2023-09-04T06:26:24.006Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1013a16b-8016-41e1-b652-fa892d0be4c4",
+        "position": "Restaurant Server",
+        "start_date": "2023-09-04T02:45:35.520Z",
+        "end_date": "2023-09-03T20:13:18.575Z",
+        "created_at": "2023-09-03T22:05:25.577Z",
+        "updated_at": "2023-09-03T23:16:07.724Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "577cd0b0-9e1b-4056-a508-9445907a3a4b",
+        "email": "Tillman_Reilly69@yahoo.com",
+        "firstName": "Clare",
+        "lastName": "Lakin-Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54913987",
+        "tenantId": null
+      },
+      {
+        "reference": "f1101a55-466d-4f0b-ae3d-624ebefbc15e",
+        "email": "Mallie.Bogisich-Mayert41@gmail.com",
+        "firstName": "Abdiel",
+        "lastName": "Herzog-Mueller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/223.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4a60c749-a156-4d40-9cf4-f67cd5edfecc",
+        "email": "Allie68@yahoo.com",
+        "firstName": "Lucas",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93393386",
+        "tenantId": null
+      },
+      {
+        "reference": "517ce066-5bcf-4613-9f5b-6995d7f4c6ac",
+        "email": "Mallory.Bogisich15@gmail.com",
+        "firstName": "Tianna",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/828.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "242f7947-da01-44b4-a238-0127a5cad65b",
+        "email": "Ashley49@gmail.com",
+        "firstName": "Earnest",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60889689",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payroll": [
+      {
+        "id": "32f7c18a-d327-4e23-aba1-094065b4cd20",
+        "salary": 26495,
+        "bonus": 28082,
+        "deductions": 18141,
+        "net_pay": 99264,
+        "created_at": "2023-09-04T06:13:00.788Z",
+        "updated_at": "2023-09-03T10:35:04.963Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19fee238-bcb0-493a-9422-4bddbf538f2e",
+        "salary": 6995,
+        "bonus": 70691,
+        "deductions": 21493,
+        "net_pay": 75233,
+        "created_at": "2023-09-04T05:34:52.468Z",
+        "updated_at": "2023-09-03T18:39:16.069Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f627b451-c3af-4df6-bb73-2a30546302d2",
+        "salary": 60931,
+        "bonus": 32108,
+        "deductions": 12275,
+        "net_pay": 76913,
+        "created_at": "2023-09-03T18:02:38.300Z",
+        "updated_at": "2023-09-03T22:47:44.029Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "463efd66-3835-43af-9f3e-cf62e14db415",
+        "salary": 68017,
+        "bonus": 264,
+        "deductions": 50256,
+        "net_pay": 90954,
+        "created_at": "2023-09-03T17:23:13.036Z",
+        "updated_at": "2023-09-04T07:15:14.549Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4bbc308-9741-4c33-8f2e-d303ad058557",
+        "salary": 44615,
+        "bonus": 67181,
+        "deductions": 37838,
+        "net_pay": 21946,
+        "created_at": "2023-09-04T08:09:02.709Z",
+        "updated_at": "2023-09-03T09:51:59.025Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "521e2a80-c441-4958-839c-579d8c3fc53e",
+        "name": "Breakfast Menu",
+        "description": "Delicious breakfast options to start your day",
+        "price": 70953,
+        "availability": false,
+        "created_at": "2023-09-03T15:28:35.714Z",
+        "updated_at": "2023-09-03T20:59:09.195Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "bc250821-f1f0-485a-b0ad-3b9a3614e7e8",
+        "name": "Lunch Menu",
+        "description": "A variety of lunch dishes to satisfy your cravings",
+        "price": 1752,
+        "availability": true,
+        "created_at": "2023-09-04T00:13:34.535Z",
+        "updated_at": "2023-09-04T02:03:22.745Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "02348cf7-4fb7-4404-8751-d8645f905613",
+        "name": "Dinner Menu",
+        "description": "Indulge in our exquisite dinner selections",
+        "price": 54610,
+        "availability": true,
+        "created_at": "2023-09-03T09:45:05.678Z",
+        "updated_at": "2023-09-03T22:36:28.898Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "cc7976a5-963c-42e4-b330-40199923be7c",
+        "name": "Vegetarian Menu",
+        "description": "Healthy and tasty vegetarian options",
+        "price": 22682,
+        "availability": false,
+        "created_at": "2023-09-04T02:26:27.747Z",
+        "updated_at": "2023-09-04T05:50:43.225Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "d75bc91d-c686-4327-9395-61a06618ade3",
+        "name": "Kids Menu",
+        "description": "Special menu for our little guests",
+        "price": 74709,
+        "availability": true,
+        "created_at": "2023-09-03T22:51:09.025Z",
+        "updated_at": "2023-09-03T21:34:05.255Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "menu_invitation": [
+      {
+        "id": "8e1e23d1-cd68-4d75-b237-a687f7f19ba4",
+        "status": "Pending",
+        "created_at": "2023-09-04T04:16:28.376Z",
+        "updated_at": "2023-09-03T20:41:33.301Z",
+        "menu_id": "bc250821-f1f0-485a-b0ad-3b9a3614e7e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "219be42f-66a2-4a1f-9ccf-457edf22a09d",
+        "status": "Accepted",
+        "created_at": "2023-09-04T03:02:57.951Z",
+        "updated_at": "2023-09-03T21:14:32.006Z",
+        "menu_id": "bc250821-f1f0-485a-b0ad-3b9a3614e7e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d01171d5-f3de-42c2-9b07-ce1d16a5bf8b",
+        "status": "Declined",
+        "created_at": "2023-09-04T07:29:57.136Z",
+        "updated_at": "2023-09-03T13:37:36.602Z",
+        "menu_id": "cc7976a5-963c-42e4-b330-40199923be7c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1503bdc-ae82-4874-af3c-aef5ed1c4b34",
+        "status": "Expired",
+        "created_at": "2023-09-03T12:53:59.526Z",
+        "updated_at": "2023-09-04T00:09:36.859Z",
+        "menu_id": "bc250821-f1f0-485a-b0ad-3b9a3614e7e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3fc3c81-a397-45eb-8fa6-24013e7e62c7",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T00:59:26.914Z",
+        "updated_at": "2023-09-04T08:48:37.897Z",
+        "menu_id": "bc250821-f1f0-485a-b0ad-3b9a3614e7e8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "be57e827-2dec-4dda-9fa3-a391183632c5",
+        "position": "Manager",
+        "start_date": "2023-09-03T20:21:27.018Z",
+        "end_date": "2023-09-03T12:50:08.816Z",
+        "created_at": "2023-09-04T03:37:49.586Z",
+        "updated_at": "2023-09-03T12:52:01.701Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6950c2d4-75cd-4926-81bd-1e48e8c6ec6e",
+        "position": "Chef",
+        "start_date": "2023-09-03T23:35:44.120Z",
+        "end_date": "2023-09-03T16:53:25.224Z",
+        "created_at": "2023-09-04T01:12:28.043Z",
+        "updated_at": "2023-09-04T00:10:18.615Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc62f3e0-a71e-482f-a033-c1c34a9424ec",
+        "position": "Front Desk Agent",
+        "start_date": "2023-09-03T11:21:18.442Z",
+        "end_date": "2023-09-03T09:39:05.739Z",
+        "created_at": "2023-09-03T10:25:34.984Z",
+        "updated_at": "2023-09-03T10:34:45.425Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97a617fc-e56e-4149-b0a0-7f1e847c36ac",
+        "position": "Housekeeping Supervisor",
+        "start_date": "2023-09-04T09:20:59.151Z",
+        "end_date": "2023-09-04T01:36:27.923Z",
+        "created_at": "2023-09-04T00:16:20.129Z",
+        "updated_at": "2023-09-03T14:30:33.675Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "583a2f20-7c3e-4f56-8e7e-8e45a26ccde4",
+        "position": "Bartender",
+        "start_date": "2023-09-03T16:32:39.727Z",
+        "end_date": "2023-09-04T04:29:33.792Z",
+        "created_at": "2023-09-03T19:21:58.490Z",
+        "updated_at": "2023-09-03T23:36:52.706Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "90e0976e-e30f-416e-83ae-0552a6e89cb9",
+        "email": "Abdiel.Mills@hotmail.com",
+        "firstName": "Jaquan",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28410256",
+        "tenantId": null
+      },
+      {
+        "reference": "7a399e73-ee48-4e41-b3fa-752f6ca7db2c",
+        "email": "Bryce.Towne@gmail.com",
+        "firstName": "Yasmine",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1142.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7a3bc051-a4e7-4eb6-abaf-eb07770054b3",
+        "email": "Cecilia.Ledner@gmail.com",
+        "firstName": "Ocie",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/224.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0c12e2a0-bdd5-4278-9702-2c913e709f7d",
+        "email": "Mellie.Roberts@gmail.com",
+        "firstName": "Sandra",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66486124",
+        "tenantId": null
+      },
+      {
+        "reference": "5e59ba61-b27c-494d-a38d-7ae8ae95ba83",
+        "email": "Vicente_Ondricka@gmail.com",
+        "firstName": "Retha",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81572998",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payroll": [
+      {
+        "id": "c4ee773e-1a28-4ed1-9475-d2872b000da5",
+        "salary": 42519,
+        "bonus": 96226,
+        "deductions": 87387,
+        "net_pay": 7312,
+        "created_at": "2023-09-03T12:33:16.632Z",
+        "updated_at": "2023-09-03T15:11:36.460Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a411d6c3-5f60-4078-b2ad-729feb0348af",
+        "salary": 71109,
+        "bonus": 70224,
+        "deductions": 79273,
+        "net_pay": 2870,
+        "created_at": "2023-09-04T03:08:49.907Z",
+        "updated_at": "2023-09-03T11:24:13.971Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a57eaa6a-3421-45d3-9256-9bb27b1d5c59",
+        "salary": 26161,
+        "bonus": 61218,
+        "deductions": 32909,
+        "net_pay": 60678,
+        "created_at": "2023-09-03T18:40:59.472Z",
+        "updated_at": "2023-09-03T11:06:41.439Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6eb79eb-6638-44d9-9f65-803428b7af55",
+        "salary": 28000,
+        "bonus": 58413,
+        "deductions": 1361,
+        "net_pay": 15662,
+        "created_at": "2023-09-03T10:20:27.302Z",
+        "updated_at": "2023-09-03T14:33:01.272Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc577f61-d7ea-4929-aa4c-4062860a11ba",
+        "salary": 72244,
+        "bonus": 84561,
+        "deductions": 10599,
+        "net_pay": 7272,
+        "created_at": "2023-09-04T08:44:58.067Z",
+        "updated_at": "2023-09-03T16:48:58.748Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "608930b4-cd36-4b1a-b39e-ef2b6e22e2fe",
+        "name": "Breakfast Specials",
+        "description": "Start your day with our delicious breakfast options",
+        "price": 9408,
+        "availability": true,
+        "created_at": "2023-09-03T13:31:32.644Z",
+        "updated_at": "2023-09-03T12:13:23.544Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "42d8b669-121f-4e02-9775-6112c5ddc267",
+        "name": "Chef's Recommendations",
+        "description": "Try our chef's specially curated dishes",
+        "price": 70031,
+        "availability": false,
+        "created_at": "2023-09-03T22:14:29.227Z",
+        "updated_at": "2023-09-03T23:57:47.074Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "dfee9c8d-5a1c-4ec4-95b7-e3f114586e09",
+        "name": "Vegetarian Delights",
+        "description": "Enjoy our flavorful vegetarian dishes",
+        "price": 5082,
+        "availability": true,
+        "created_at": "2023-09-04T02:17:52.951Z",
+        "updated_at": "2023-09-03T10:03:46.712Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "a5dbdf26-f037-4689-86cd-13d859d3cc6d",
+        "name": "Seafood Extravaganza",
+        "description": "Indulge in a variety of fresh seafood",
+        "price": 19996,
+        "availability": true,
+        "created_at": "2023-09-03T22:27:46.741Z",
+        "updated_at": "2023-09-04T06:49:15.607Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "9d4cba7c-a291-44f5-9c64-77cc89c837b7",
+        "name": "Dessert Indulgence",
+        "description": "Satisfy your sweet tooth with our delectable desserts",
+        "price": 21996,
+        "availability": false,
+        "created_at": "2023-09-03T21:56:58.456Z",
+        "updated_at": "2023-09-03T16:25:48.446Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "menu_invitation": [
+      {
+        "id": "d16e97c8-1c77-4620-9665-8b26bb7285ed",
+        "status": "Pending",
+        "created_at": "2023-09-04T00:48:00.956Z",
+        "updated_at": "2023-09-04T02:16:35.175Z",
+        "menu_id": "a5dbdf26-f037-4689-86cd-13d859d3cc6d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb6b2b11-ec96-40f3-b0c8-48c9962c6942",
+        "status": "Accepted",
+        "created_at": "2023-09-03T11:09:39.510Z",
+        "updated_at": "2023-09-03T13:32:14.167Z",
+        "menu_id": "a5dbdf26-f037-4689-86cd-13d859d3cc6d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d17c98cd-bf47-47d5-a20e-e877b47fa520",
+        "status": "Declined",
+        "created_at": "2023-09-04T03:06:15.028Z",
+        "updated_at": "2023-09-04T08:31:42.873Z",
+        "menu_id": "a5dbdf26-f037-4689-86cd-13d859d3cc6d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4ec6a9e-d22c-48f9-a24b-46aab100faaf",
+        "status": "Expired",
+        "created_at": "2023-09-04T07:57:56.889Z",
+        "updated_at": "2023-09-03T11:11:55.957Z",
+        "menu_id": "dfee9c8d-5a1c-4ec4-95b7-e3f114586e09",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a9dfd5d-38f2-4964-97d5-45eadabdffce",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T02:56:57.884Z",
+        "updated_at": "2023-09-04T03:04:11.737Z",
+        "menu_id": "42d8b669-121f-4e02-9775-6112c5ddc267",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "9eab1c0a-a963-44cf-a1f0-275b33d9b1f5",
+        "position": "Manager",
+        "start_date": "2023-09-03T15:54:37.884Z",
+        "end_date": "2023-09-04T02:23:45.174Z",
+        "created_at": "2023-09-04T08:15:25.856Z",
+        "updated_at": "2023-09-04T06:21:17.459Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28ed57cd-bd97-47b8-9f61-f0af6afd831e",
+        "position": "Supervisor",
+        "start_date": "2023-09-04T06:54:57.994Z",
+        "end_date": "2023-09-03T12:02:22.416Z",
+        "created_at": "2023-09-03T18:45:47.094Z",
+        "updated_at": "2023-09-03T21:13:56.502Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d2455ff-d906-447e-b466-63b58cc987c2",
+        "position": "Front Desk Agent",
+        "start_date": "2023-09-03T10:26:55.854Z",
+        "end_date": "2023-09-03T09:31:30.929Z",
+        "created_at": "2023-09-03T22:59:34.991Z",
+        "updated_at": "2023-09-03T18:22:40.889Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65ca73f4-1ad4-415f-ab21-4ab203498a98",
+        "position": "Chef",
+        "start_date": "2023-09-03T13:14:43.275Z",
+        "end_date": "2023-09-03T13:43:37.730Z",
+        "created_at": "2023-09-03T17:23:01.191Z",
+        "updated_at": "2023-09-03T13:40:34.574Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9de9b9df-4fde-4a3d-8aea-447f87b20433",
+        "position": "Housekeeping Staff",
+        "start_date": "2023-09-03T17:19:51.839Z",
+        "end_date": "2023-09-03T22:59:45.029Z",
+        "created_at": "2023-09-03T13:43:16.253Z",
+        "updated_at": "2023-09-03T20:05:06.256Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a54ebcb7-9531-4e4e-8258-e5ba26e90c64",
+        "email": "Phoebe.Turner62@hotmail.com",
+        "firstName": "Schuyler",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/624.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "03709ac2-3415-4508-8c49-0d9761935808",
+        "email": "Bianka61@yahoo.com",
+        "firstName": "Taurean",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1004.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8aa6672c-2c70-4e89-9c60-b42e876e19bd",
+        "email": "Cayla6@hotmail.com",
+        "firstName": "Nico",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/49.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7feadb0-f3f1-45d9-a863-e2c4e5cf4e72",
+        "email": "Rowland_Jacobi@gmail.com",
+        "firstName": "Eudora",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5763829",
+        "tenantId": null
+      },
+      {
+        "reference": "69d6523f-c6f4-4aa4-9943-5212c419fd80",
+        "email": "Mellie.Dooley67@gmail.com",
+        "firstName": "Kyla",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/588318",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payroll": [
+      {
+        "id": "d9698b80-58a8-48ce-a883-2b593cb0bef8",
+        "salary": 43226,
+        "bonus": 84714,
+        "deductions": 2457,
+        "net_pay": 19826,
+        "created_at": "2023-09-04T03:59:42.702Z",
+        "updated_at": "2023-09-03T11:39:30.673Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3121d8ce-28bc-410d-8c2b-c96a1fcb7a75",
+        "salary": 85009,
+        "bonus": 46651,
+        "deductions": 42319,
+        "net_pay": 30177,
+        "created_at": "2023-09-03T19:27:26.535Z",
+        "updated_at": "2023-09-04T04:37:08.831Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e9d39dc-b8ad-482a-8dd1-d55455a892ac",
+        "salary": 51444,
+        "bonus": 96607,
+        "deductions": 23182,
+        "net_pay": 83369,
+        "created_at": "2023-09-03T23:00:32.102Z",
+        "updated_at": "2023-09-03T13:27:42.086Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7eace2ea-28c9-4542-bef3-707e01bd9d98",
+        "salary": 14670,
+        "bonus": 6846,
+        "deductions": 91438,
+        "net_pay": 15229,
+        "created_at": "2023-09-04T02:05:30.476Z",
+        "updated_at": "2023-09-03T09:29:56.963Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "280ee606-14b6-4352-80f0-f9a1b377ed71",
+        "salary": 91618,
+        "bonus": 65801,
+        "deductions": 98367,
+        "net_pay": 43611,
+        "created_at": "2023-09-04T07:55:53.417Z",
+        "updated_at": "2023-09-04T03:35:48.407Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "42e892f7-b9ad-4642-a9eb-a77d2ba62f43",
+        "name": "Breakfast Menu",
+        "description": "Start your day with our delicious breakfast options",
+        "price": 19765,
+        "availability": false,
+        "created_at": "2023-09-03T23:10:32.895Z",
+        "updated_at": "2023-09-04T05:40:06.497Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "bd694baa-df18-4b6d-b7dc-604b41ade10b",
+        "name": "Lunch Specials",
+        "description": "Enjoy our daily lunch specials prepared with fresh ingredients",
+        "price": 42877,
+        "availability": false,
+        "created_at": "2023-09-03T22:34:05.418Z",
+        "updated_at": "2023-09-04T08:28:33.519Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "c12b8dc8-5fff-4cca-a5cc-55f21d4ec935",
+        "name": "Dinner Selections",
+        "description": "Indulge in our exquisite dinner selections made by our talented chefs",
+        "price": 33209,
+        "availability": false,
+        "created_at": "2023-09-04T02:55:57.030Z",
+        "updated_at": "2023-09-04T04:40:46.303Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "471aa251-bbaf-48a1-860b-a4cbf895eee4",
+        "name": "Vegetarian Options",
+        "description": "Try our flavorful vegetarian dishes made with locally sourced produce",
+        "price": 26024,
+        "availability": true,
+        "created_at": "2023-09-03T17:20:14.211Z",
+        "updated_at": "2023-09-03T11:50:53.703Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "940c3868-55eb-4b8f-9920-ce3675294d99",
+        "name": "Chef's Recommendations",
+        "description": "Discover the chef's recommended dishes that will tantalize your taste buds",
+        "price": 80396,
+        "availability": true,
+        "created_at": "2023-09-04T04:41:19.323Z",
+        "updated_at": "2023-09-03T16:26:49.192Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "menu_invitation": [
+      {
+        "id": "9610805e-7517-4d34-895f-ab09b31a5339",
+        "status": "Pending",
+        "created_at": "2023-09-04T03:32:53.046Z",
+        "updated_at": "2023-09-04T02:58:54.017Z",
+        "menu_id": "bd694baa-df18-4b6d-b7dc-604b41ade10b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af931d91-2ca0-42d3-b25e-ad90844e414a",
+        "status": "Accepted",
+        "created_at": "2023-09-03T19:25:29.314Z",
+        "updated_at": "2023-09-04T07:18:34.697Z",
+        "menu_id": "c12b8dc8-5fff-4cca-a5cc-55f21d4ec935",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "823a4079-2530-4528-afec-abaac4d850b8",
+        "status": "Declined",
+        "created_at": "2023-09-03T13:36:40.569Z",
+        "updated_at": "2023-09-03T21:56:43.140Z",
+        "menu_id": "bd694baa-df18-4b6d-b7dc-604b41ade10b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3263c95d-9a8e-46c2-aba4-78fb10516b8a",
+        "status": "Expired",
+        "created_at": "2023-09-04T01:13:10.375Z",
+        "updated_at": "2023-09-03T23:03:26.145Z",
+        "menu_id": "bd694baa-df18-4b6d-b7dc-604b41ade10b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34c3bf03-d603-4ff2-b838-258d253f0c3b",
+        "status": "Cancelled",
+        "created_at": "2023-09-03T18:03:03.725Z",
+        "updated_at": "2023-09-03T10:27:27.221Z",
+        "menu_id": "c12b8dc8-5fff-4cca-a5cc-55f21d4ec935",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "7c22e932-04a6-4421-96b9-891f6b3980f3",
+        "position": "Manager",
+        "start_date": "2023-09-03T16:36:08.589Z",
+        "end_date": "2023-09-03T09:52:37.423Z",
+        "created_at": "2023-09-04T02:26:40.035Z",
+        "updated_at": "2023-09-04T03:07:18.529Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e47ba97-08d2-43c1-8ed5-b05467d4f809",
+        "position": "Supervisor",
+        "start_date": "2023-09-04T07:22:52.368Z",
+        "end_date": "2023-09-04T00:59:34.320Z",
+        "created_at": "2023-09-03T15:14:18.137Z",
+        "updated_at": "2023-09-04T03:20:22.125Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a37b25f-4602-4dcb-aa51-0951dd3886b7",
+        "position": "Front Desk Agent",
+        "start_date": "2023-09-03T14:18:00.490Z",
+        "end_date": "2023-09-03T10:32:15.684Z",
+        "created_at": "2023-09-03T17:54:23.164Z",
+        "updated_at": "2023-09-03T11:07:21.773Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a6dbcae-a8c4-4312-b4e8-1f251a7c880f",
+        "position": "Chef",
+        "start_date": "2023-09-03T12:38:17.282Z",
+        "end_date": "2023-09-03T15:04:30.779Z",
+        "created_at": "2023-09-04T00:51:19.427Z",
+        "updated_at": "2023-09-04T01:42:23.429Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "137ab2c6-43cf-40cb-b212-e1f323aabcb3",
+        "position": "Housekeeping Staff",
+        "start_date": "2023-09-04T05:16:01.908Z",
+        "end_date": "2023-09-04T02:10:54.471Z",
+        "created_at": "2023-09-03T13:04:25.325Z",
+        "updated_at": "2023-09-04T08:41:28.439Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aeb90dc7-5580-4b3d-849b-d510e6dcbf5b",
+        "email": "Giovanny.Rodriguez35@hotmail.com",
+        "firstName": "Malinda",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/520.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4384a334-3b55-4957-b917-0d23e0c55bef",
+        "email": "Telly_McClure@yahoo.com",
+        "firstName": "Jovani",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1094.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab5d662a-ba5c-4bbb-9f17-c025d295781f",
+        "email": "Rosalinda.Heaney56@yahoo.com",
+        "firstName": "Maegan",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12897409",
+        "tenantId": null
+      },
+      {
+        "reference": "c79d194f-3b18-44da-bd9a-ba37fd0a41c7",
+        "email": "Rylee.Cruickshank95@yahoo.com",
+        "firstName": "Brandyn",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/0.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "417a2b12-4fe8-4f19-a4dd-52ee34ec654d",
+        "email": "Art65@hotmail.com",
+        "firstName": "Bradley",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1127.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payroll": [
+      {
+        "id": "2adc03f7-f1eb-4483-9972-b28cf0361e15",
+        "salary": 48382,
+        "bonus": 66382,
+        "deductions": 7538,
+        "net_pay": 66555,
+        "created_at": "2023-09-03T11:13:25.693Z",
+        "updated_at": "2023-09-04T03:14:20.031Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f629a42-0b2e-4e69-a378-b355fffa6a06",
+        "salary": 21669,
+        "bonus": 63383,
+        "deductions": 63045,
+        "net_pay": 14985,
+        "created_at": "2023-09-03T13:44:29.851Z",
+        "updated_at": "2023-09-04T01:32:26.650Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6ac6a7c-deec-47dc-9f44-71bddd5679ac",
+        "salary": 47188,
+        "bonus": 40812,
+        "deductions": 74234,
+        "net_pay": 94864,
+        "created_at": "2023-09-04T03:27:44.178Z",
+        "updated_at": "2023-09-03T19:35:22.103Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be01af93-758f-4cdb-a96d-4945f2e2b962",
+        "salary": 99742,
+        "bonus": 12421,
+        "deductions": 66653,
+        "net_pay": 75729,
+        "created_at": "2023-09-03T18:49:17.105Z",
+        "updated_at": "2023-09-04T07:18:43.932Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "138a5c76-81ba-4c49-95a2-6fa43e396748",
+        "salary": 41344,
+        "bonus": 8116,
+        "deductions": 63826,
+        "net_pay": 94396,
+        "created_at": "2023-09-04T05:17:06.090Z",
+        "updated_at": "2023-09-03T15:15:36.254Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "586d1844-b0d5-4a68-ad1f-9cf619569082",
+        "name": "Breakfast Menu",
+        "description": "Start your day with a delicious breakfast",
+        "price": 74757,
+        "availability": false,
+        "created_at": "2023-09-03T13:05:00.034Z",
+        "updated_at": "2023-09-04T08:19:03.076Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "50caccb6-5f09-487f-9a1a-36542fb211cc",
+        "name": "Lunch Menu",
+        "description": "Enjoy a satisfying lunch with a variety of options",
+        "price": 89366,
+        "availability": false,
+        "created_at": "2023-09-03T11:22:20.874Z",
+        "updated_at": "2023-09-03T12:29:15.639Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "067d1089-4790-4fd6-8e3b-80ce4ca27e4a",
+        "name": "Dinner Menu",
+        "description": "Indulge in a delightful dinner experience",
+        "price": 4511,
+        "availability": false,
+        "created_at": "2023-09-04T09:01:16.802Z",
+        "updated_at": "2023-09-04T01:39:00.181Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "ec30d834-6c9d-4558-ba8c-c0255e54f09a",
+        "name": "Vegetarian Menu",
+        "description": "Tasty and healthy options for vegetarians",
+        "price": 11878,
+        "availability": true,
+        "created_at": "2023-09-03T20:12:23.187Z",
+        "updated_at": "2023-09-04T06:47:20.586Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "a1282811-e5fc-4f50-ae84-c0e6a99a2fce",
+        "name": "Chef's Specials",
+        "description": "Try our chef's handcrafted creations",
+        "price": 86410,
+        "availability": true,
+        "created_at": "2023-09-03T22:30:04.497Z",
+        "updated_at": "2023-09-03T11:37:10.073Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "menu_invitation": [
+      {
+        "id": "2f265ce8-14b9-4327-b070-16c0d67f9dc7",
+        "status": "Pending",
+        "created_at": "2023-09-03T14:00:36.910Z",
+        "updated_at": "2023-09-03T20:53:54.515Z",
+        "menu_id": "586d1844-b0d5-4a68-ad1f-9cf619569082",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68907b99-e6c0-4f77-8778-c4de43903d0b",
+        "status": "Accepted",
+        "created_at": "2023-09-03T13:04:37.515Z",
+        "updated_at": "2023-09-03T17:08:30.621Z",
+        "menu_id": "50caccb6-5f09-487f-9a1a-36542fb211cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8cd8074-9edb-49c1-8f3b-0041fd8a8ecb",
+        "status": "Declined",
+        "created_at": "2023-09-03T19:41:24.808Z",
+        "updated_at": "2023-09-04T08:12:01.026Z",
+        "menu_id": "50caccb6-5f09-487f-9a1a-36542fb211cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e883b472-57c3-44aa-9410-ab716be03d83",
+        "status": "Expired",
+        "created_at": "2023-09-03T10:10:47.119Z",
+        "updated_at": "2023-09-03T15:43:31.386Z",
+        "menu_id": "586d1844-b0d5-4a68-ad1f-9cf619569082",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "171b4bc2-de8a-4723-9562-3d3172b25139",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T02:24:42.893Z",
+        "updated_at": "2023-09-04T07:12:11.371Z",
+        "menu_id": "50caccb6-5f09-487f-9a1a-36542fb211cc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "d5f5b8da-5bb1-43c6-9316-b546037bf746",
+        "position": "Manager",
+        "start_date": "2023-09-03T22:39:25.377Z",
+        "end_date": "2023-09-03T22:32:11.167Z",
+        "created_at": "2023-09-03T15:18:47.957Z",
+        "updated_at": "2023-09-04T02:26:19.714Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3322ee4f-9363-4d32-8b87-eed725949385",
+        "position": "Supervisor",
+        "start_date": "2023-09-03T13:27:33.404Z",
+        "end_date": "2023-09-03T14:30:25.279Z",
+        "created_at": "2023-09-04T00:12:43.081Z",
+        "updated_at": "2023-09-04T03:50:57.101Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13f7f8f3-9e1f-4f0c-bc9f-3334853a404d",
+        "position": "Front Desk Staff",
+        "start_date": "2023-09-04T04:24:45.634Z",
+        "end_date": "2023-09-04T08:26:46.112Z",
+        "created_at": "2023-09-03T09:34:15.751Z",
+        "updated_at": "2023-09-04T00:52:54.441Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e9fe7bd-0524-444a-93ab-4d68fd57d396",
+        "position": "Housekeeping",
+        "start_date": "2023-09-03T19:40:29.137Z",
+        "end_date": "2023-09-04T01:15:31.953Z",
+        "created_at": "2023-09-04T01:43:21.365Z",
+        "updated_at": "2023-09-04T08:57:35.771Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11046193-986e-411f-870e-3d5e07c1254d",
+        "position": "Restaurant Staff",
+        "start_date": "2023-09-03T15:20:13.285Z",
+        "end_date": "2023-09-03T19:25:46.845Z",
+        "created_at": "2023-09-03T09:39:22.872Z",
+        "updated_at": "2023-09-03T20:20:25.149Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9bdc0e73-198e-4695-8022-e9baa379dacc",
+        "email": "Rosalee31@gmail.com",
+        "firstName": "Yadira",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/406.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e32b232d-4da3-42c2-ae12-4c04333c9ef8",
+        "email": "Gerry.Muller-OReilly@hotmail.com",
+        "firstName": "Rodrigo",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/265.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1bb182ef-6a8f-453d-9332-2eaf26bfc03b",
+        "email": "Laury_Ziemann94@yahoo.com",
+        "firstName": "Bartholome",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50350795",
+        "tenantId": null
+      },
+      {
+        "reference": "6682b49e-b303-4f7b-b30f-e6be65209f52",
+        "email": "Demond.Toy24@gmail.com",
+        "firstName": "Adalberto",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/737.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ef960db7-1118-4018-a01d-481fae7cbd60",
+        "email": "Bradly.Rice5@hotmail.com",
+        "firstName": "Jaycee",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72087590",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payroll": [
+      {
+        "id": "d26e9ca8-ba38-4f0f-b338-18ee0118ba15",
+        "salary": 48175,
+        "bonus": 87555,
+        "deductions": 50611,
+        "net_pay": 65928,
+        "created_at": "2023-09-04T05:11:35.004Z",
+        "updated_at": "2023-09-03T18:03:57.723Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f48a5a88-6728-449c-b3ea-008127c5629e",
+        "salary": 28834,
+        "bonus": 25420,
+        "deductions": 37709,
+        "net_pay": 6359,
+        "created_at": "2023-09-03T15:01:45.964Z",
+        "updated_at": "2023-09-03T17:12:31.718Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae7c495a-d740-4864-96a3-42c37880471d",
+        "salary": 12074,
+        "bonus": 17825,
+        "deductions": 55900,
+        "net_pay": 1701,
+        "created_at": "2023-09-03T20:52:35.154Z",
+        "updated_at": "2023-09-03T13:14:00.644Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "689023f1-98ef-4ffd-89b7-d0ac3740a50a",
+        "salary": 763,
+        "bonus": 74109,
+        "deductions": 51709,
+        "net_pay": 33575,
+        "created_at": "2023-09-03T13:09:10.809Z",
+        "updated_at": "2023-09-04T05:16:23.595Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86539d51-2fdc-4b5d-bfea-d300314585b6",
+        "salary": 91384,
+        "bonus": 89474,
+        "deductions": 3552,
+        "net_pay": 99827,
+        "created_at": "2023-09-03T16:14:16.589Z",
+        "updated_at": "2023-09-04T05:33:04.304Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "0a49b84a-111a-496f-9011-dfb32babe023",
+        "name": "Breakfast Specials",
+        "description": "Start your day with our delicious breakfast specials",
+        "price": 98200,
+        "availability": false,
+        "created_at": "2023-09-04T03:02:38.762Z",
+        "updated_at": "2023-09-04T04:03:34.535Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "5b5afa2b-d2f1-44d9-ad2e-1effeb31a18c",
+        "name": "Chef's Recommendations",
+        "description": "Try our chef's recommended dishes made with fresh ingredients",
+        "price": 88394,
+        "availability": true,
+        "created_at": "2023-09-03T23:36:19.716Z",
+        "updated_at": "2023-09-03T14:49:20.522Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "940a8a01-4e1e-4dae-96f5-a6b7a092c27b",
+        "name": "Healthy Options",
+        "description": "Enjoy our healthy options for a guilt-free meal",
+        "price": 69209,
+        "availability": false,
+        "created_at": "2023-09-04T07:26:02.877Z",
+        "updated_at": "2023-09-04T04:32:44.170Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "38316ec5-2e01-46ab-b3c6-6c8cfd9e88ab",
+        "name": "International Cuisine",
+        "description": "Experience a taste of different cultures with our international cuisine",
+        "price": 37699,
+        "availability": false,
+        "created_at": "2023-09-03T14:54:44.597Z",
+        "updated_at": "2023-09-03T15:36:43.566Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "d44814c0-59da-45db-b9b4-f5fccfafbc9b",
+        "name": "Dessert Delights",
+        "description": "Indulge in our mouthwatering desserts",
+        "price": 28182,
+        "availability": true,
+        "created_at": "2023-09-03T20:57:59.617Z",
+        "updated_at": "2023-09-03T13:28:48.693Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "menu_invitation": [
+      {
+        "id": "008d5253-bc4c-4f71-b407-24642e9f6c02",
+        "status": "Pending",
+        "created_at": "2023-09-03T16:11:08.225Z",
+        "updated_at": "2023-09-03T11:13:23.362Z",
+        "menu_id": "940a8a01-4e1e-4dae-96f5-a6b7a092c27b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a3383a1-ed28-4b38-b9e1-10ee93fdd8d3",
+        "status": "Accepted",
+        "created_at": "2023-09-03T18:13:28.782Z",
+        "updated_at": "2023-09-04T03:12:38.428Z",
+        "menu_id": "38316ec5-2e01-46ab-b3c6-6c8cfd9e88ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed9632a4-f25a-4d60-b462-310624c57c22",
+        "status": "Declined",
+        "created_at": "2023-09-04T03:56:59.766Z",
+        "updated_at": "2023-09-04T02:02:39.450Z",
+        "menu_id": "5b5afa2b-d2f1-44d9-ad2e-1effeb31a18c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a3c810e-7971-4160-9844-4ef29ea0d9c7",
+        "status": "Expired",
+        "created_at": "2023-09-03T18:32:04.138Z",
+        "updated_at": "2023-09-03T15:33:14.581Z",
+        "menu_id": "d44814c0-59da-45db-b9b4-f5fccfafbc9b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2379d41c-8f69-41d3-8ba4-a0e2d354a1f4",
+        "status": "Cancelled",
+        "created_at": "2023-09-03T17:11:06.606Z",
+        "updated_at": "2023-09-04T00:51:48.600Z",
+        "menu_id": "940a8a01-4e1e-4dae-96f5-a6b7a092c27b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "3a267746-1de0-4790-9f37-7ec2bf614aab",
+        "position": "Manager",
+        "start_date": "2023-09-03T20:33:48.684Z",
+        "end_date": "2023-09-03T20:49:11.334Z",
+        "created_at": "2023-09-04T05:53:47.077Z",
+        "updated_at": "2023-09-03T13:26:20.537Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "006f948a-6ba0-4e8d-95f9-10fce3ef4aa7",
+        "position": "Supervisor",
+        "start_date": "2023-09-03T22:39:42.545Z",
+        "end_date": "2023-09-03T23:28:26.003Z",
+        "created_at": "2023-09-04T05:03:43.042Z",
+        "updated_at": "2023-09-03T13:25:57.445Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03eb5859-54f2-43c7-99fd-9144ce00b7f2",
+        "position": "Front Desk Staff",
+        "start_date": "2023-09-04T04:08:08.192Z",
+        "end_date": "2023-09-03T23:51:31.553Z",
+        "created_at": "2023-09-03T14:23:50.654Z",
+        "updated_at": "2023-09-03T13:15:59.017Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9faf2b54-a752-40c2-bcc3-b2bc8470caa4",
+        "position": "Chef",
+        "start_date": "2023-09-03T11:32:18.943Z",
+        "end_date": "2023-09-03T12:24:29.236Z",
+        "created_at": "2023-09-03T09:51:57.413Z",
+        "updated_at": "2023-09-04T09:11:20.802Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92d1945f-b787-41c3-8dbd-85e63dadf1a9",
+        "position": "Housekeeping",
+        "start_date": "2023-09-03T15:04:02.349Z",
+        "end_date": "2023-09-03T19:59:32.873Z",
+        "created_at": "2023-09-03T10:03:06.381Z",
+        "updated_at": "2023-09-04T06:41:49.815Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "32bef71e-a236-4928-8b2c-026aafd2acc2",
+        "email": "Braxton.Kshlerin40@yahoo.com",
+        "firstName": "Elody",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/94.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c75e143-beb9-4f36-8b7a-95d8bae8db21",
+        "email": "Omari.Thompson1@gmail.com",
+        "firstName": "Donnell",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90563153",
+        "tenantId": null
+      },
+      {
+        "reference": "0e3e472c-2565-462b-9133-2c141385963f",
+        "email": "Margaret54@hotmail.com",
+        "firstName": "Kavon",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1062.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "15b47906-a45e-44cd-84e4-1e2b98e14726",
+        "email": "Darryl.Ledner34@gmail.com",
+        "firstName": "Barbara",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62302135",
+        "tenantId": null
+      },
+      {
+        "reference": "155fc8e6-ce42-4573-bd2c-7980b1911930",
+        "email": "Susanna_White@gmail.com",
+        "firstName": "Malvina",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/570.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payroll": [
+      {
+        "id": "68ea7675-83b4-4b77-a87c-f7d48f933621",
+        "salary": 6487,
+        "bonus": 23965,
+        "deductions": 81035,
+        "net_pay": 20668,
+        "created_at": "2023-09-04T07:10:23.818Z",
+        "updated_at": "2023-09-03T11:39:31.613Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef95b871-60c4-4bf4-b2de-1a32e074e77c",
+        "salary": 81137,
+        "bonus": 90278,
+        "deductions": 76624,
+        "net_pay": 15847,
+        "created_at": "2023-09-04T02:44:28.597Z",
+        "updated_at": "2023-09-03T13:17:43.023Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab111e10-86aa-4f3a-bbf6-9a3cfba1035b",
+        "salary": 34858,
+        "bonus": 39351,
+        "deductions": 29589,
+        "net_pay": 97757,
+        "created_at": "2023-09-04T05:49:01.863Z",
+        "updated_at": "2023-09-03T22:46:06.926Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ec1add5-f6c5-4ddf-a059-1ec6e6d2c4f7",
+        "salary": 74477,
+        "bonus": 33795,
+        "deductions": 21621,
+        "net_pay": 98703,
+        "created_at": "2023-09-03T10:34:29.187Z",
+        "updated_at": "2023-09-03T23:17:18.669Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0be0e54-72a6-4578-9a06-25fee0741f47",
+        "salary": 96234,
+        "bonus": 71803,
+        "deductions": 16707,
+        "net_pay": 31634,
+        "created_at": "2023-09-03T21:35:48.052Z",
+        "updated_at": "2023-09-03T12:53:20.589Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "a9ba9968-aa97-48be-92f3-790d23289af5",
+        "name": "Chef's Special",
+        "description": "A tantalizing combination of flavors",
+        "price": 45290,
+        "availability": true,
+        "created_at": "2023-09-03T11:50:25.495Z",
+        "updated_at": "2023-09-03T15:04:40.967Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "ce3e338b-443b-46a4-a1b1-a9b93517bfb5",
+        "name": "Vegetarian Delight",
+        "description": "Fresh and healthy ingredients",
+        "price": 91338,
+        "availability": false,
+        "created_at": "2023-09-03T10:53:20.789Z",
+        "updated_at": "2023-09-04T02:40:04.726Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "1c091358-911c-4793-978d-b456ccb9e4e0",
+        "name": "Seafood Extravaganza",
+        "description": "Indulge in the finest seafood",
+        "price": 90761,
+        "availability": false,
+        "created_at": "2023-09-03T16:46:55.766Z",
+        "updated_at": "2023-09-04T01:34:42.622Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "8fd2a6f4-687e-4b76-93a1-13e05296db45",
+        "name": "Gourmet Brunch",
+        "description": "Elevated brunch classics",
+        "price": 11327,
+        "availability": true,
+        "created_at": "2023-09-03T17:36:41.036Z",
+        "updated_at": "2023-09-04T04:10:20.865Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "05790018-ef53-4637-a6bb-e973658d66ff",
+        "name": "Farm-to-Table Experience",
+        "description": "Savor locally sourced ingredients",
+        "price": 20944,
+        "availability": true,
+        "created_at": "2023-09-04T04:44:29.960Z",
+        "updated_at": "2023-09-03T11:18:46.907Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "menu_invitation": [
+      {
+        "id": "7fe53bea-a314-435f-b8e5-480c88a50338",
+        "status": "Pending",
+        "created_at": "2023-09-04T06:11:37.282Z",
+        "updated_at": "2023-09-03T13:40:36.211Z",
+        "menu_id": "a9ba9968-aa97-48be-92f3-790d23289af5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "286bb7db-26eb-44b1-a39d-33c5555e6a4b",
+        "status": "Accepted",
+        "created_at": "2023-09-03T14:17:57.945Z",
+        "updated_at": "2023-09-04T07:56:42.705Z",
+        "menu_id": "ce3e338b-443b-46a4-a1b1-a9b93517bfb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78b36674-b37d-441c-bf52-63d5eefd50b4",
+        "status": "Declined",
+        "created_at": "2023-09-03T19:25:03.076Z",
+        "updated_at": "2023-09-03T22:04:32.335Z",
+        "menu_id": "1c091358-911c-4793-978d-b456ccb9e4e0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8214378-0e53-4bf5-b248-91704611ecca",
+        "status": "Expired",
+        "created_at": "2023-09-03T14:50:44.680Z",
+        "updated_at": "2023-09-03T14:27:12.501Z",
+        "menu_id": "1c091358-911c-4793-978d-b456ccb9e4e0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86faa612-ad7f-4f88-8073-6ea5c942a0c6",
+        "status": "Cancelled",
+        "created_at": "2023-09-03T15:04:55.777Z",
+        "updated_at": "2023-09-04T03:22:46.006Z",
+        "menu_id": "a9ba9968-aa97-48be-92f3-790d23289af5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "89be4e1b-e93c-4233-b1cb-db13b6aaeb9f",
+        "position": "Manager",
+        "start_date": "2023-09-04T06:13:14.301Z",
+        "end_date": "2023-09-03T12:14:41.262Z",
+        "created_at": "2023-09-03T11:34:34.821Z",
+        "updated_at": "2023-09-03T15:56:14.248Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e643ba68-04a7-4cd8-bca9-75278d4b80d8",
+        "position": "Supervisor",
+        "start_date": "2023-09-04T06:19:53.866Z",
+        "end_date": "2023-09-03T21:15:56.860Z",
+        "created_at": "2023-09-03T18:54:44.808Z",
+        "updated_at": "2023-09-04T08:37:58.130Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c802190b-88e2-4e79-9538-e653a1223006",
+        "position": "Chef",
+        "start_date": "2023-09-03T11:53:33.214Z",
+        "end_date": "2023-09-03T20:46:38.003Z",
+        "created_at": "2023-09-03T11:16:56.626Z",
+        "updated_at": "2023-09-03T20:49:10.954Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "953bb2dd-6989-4649-997b-58bb060adf63",
+        "position": "Front Desk Agent",
+        "start_date": "2023-09-04T05:56:17.001Z",
+        "end_date": "2023-09-04T01:16:08.609Z",
+        "created_at": "2023-09-03T13:23:06.298Z",
+        "updated_at": "2023-09-04T01:22:11.745Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a29f6d8-87a4-4c6a-a221-c4f3b01d9a77",
+        "position": "Housekeeping Staff",
+        "start_date": "2023-09-03T12:27:06.583Z",
+        "end_date": "2023-09-03T13:00:33.049Z",
+        "created_at": "2023-09-04T04:46:08.562Z",
+        "updated_at": "2023-09-03T20:07:35.336Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "55a8d114-83d9-4296-90f3-a9622f02fb2b",
+        "email": "Tiffany.Keeling@gmail.com",
+        "firstName": "Kathryne",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88201343",
+        "tenantId": null
+      },
+      {
+        "reference": "3718a88e-c492-49b5-bcfd-f5209f406df8",
+        "email": "Ollie_Kuvalis@hotmail.com",
+        "firstName": "Elvie",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76007731",
+        "tenantId": null
+      },
+      {
+        "reference": "2bd91ddb-10a1-41cd-b47f-9c76608e06aa",
+        "email": "Herta99@gmail.com",
+        "firstName": "Jasper",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/273.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "66a8e9e9-8acd-4bbc-8de0-9b6f3071d623",
+        "email": "Crystal_Abshire@yahoo.com",
+        "firstName": "Eden",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1062.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "10c990c7-5a5a-4691-80f0-59b7847bf5f4",
+        "email": "Magdalena27@yahoo.com",
+        "firstName": "Mack",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57101052",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payroll": [
+      {
+        "id": "ab83cf81-c236-4b9b-a6b0-567963e6a2c2",
+        "salary": 50231,
+        "bonus": 17782,
+        "deductions": 10501,
+        "net_pay": 94785,
+        "created_at": "2023-09-03T18:38:22.123Z",
+        "updated_at": "2023-09-03T09:54:32.066Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "528ebd5a-85b6-47a5-95c1-4ddf180c9e70",
+        "salary": 67275,
+        "bonus": 62746,
+        "deductions": 49232,
+        "net_pay": 17744,
+        "created_at": "2023-09-03T13:46:27.357Z",
+        "updated_at": "2023-09-03T20:04:04.548Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcb1ab82-3e3a-4c33-9382-4f9d63028349",
+        "salary": 9914,
+        "bonus": 14109,
+        "deductions": 10335,
+        "net_pay": 99570,
+        "created_at": "2023-09-03T18:11:56.586Z",
+        "updated_at": "2023-09-03T19:16:13.263Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69825518-e1a0-450d-89e8-ba269f4d687e",
+        "salary": 12384,
+        "bonus": 37936,
+        "deductions": 65122,
+        "net_pay": 50469,
+        "created_at": "2023-09-03T23:39:55.631Z",
+        "updated_at": "2023-09-04T02:04:25.287Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4db7523a-eb08-4a08-8ba1-5285a9ce7c69",
+        "salary": 51984,
+        "bonus": 4844,
+        "deductions": 71336,
+        "net_pay": 59128,
+        "created_at": "2023-09-03T14:35:49.243Z",
+        "updated_at": "2023-09-03T19:57:02.707Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "601c5c63-77be-4006-947a-cc7ad14735b3",
+        "name": "Breakfast Menu",
+        "description": "Delicious breakfast options to start your day",
+        "price": 35942,
+        "availability": false,
+        "created_at": "2023-09-03T13:02:26.620Z",
+        "updated_at": "2023-09-03T21:25:28.814Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "6ea8db8f-63a2-4d8d-8d21-0c4fb9c39342",
+        "name": "Lunch Specials",
+        "description": "Tasty lunch specials for a quick bite",
+        "price": 98901,
+        "availability": false,
+        "created_at": "2023-09-04T05:01:53.237Z",
+        "updated_at": "2023-09-04T04:23:38.564Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "f99d04a0-00db-4c1f-98bd-ca4ab8dd60bb",
+        "name": "Dinner Selections",
+        "description": "Exquisite dinner choices for a memorable evening",
+        "price": 57647,
+        "availability": true,
+        "created_at": "2023-09-04T03:53:04.875Z",
+        "updated_at": "2023-09-03T16:52:31.071Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "dda873b4-3ef8-452a-893b-5d737a485b9e",
+        "name": "Vegetarian Options",
+        "description": "Mouthwatering vegetarian dishes for health-conscious guests",
+        "price": 47594,
+        "availability": true,
+        "created_at": "2023-09-03T16:04:07.383Z",
+        "updated_at": "2023-09-03T19:25:45.476Z",
+        "hotel_id": "main_entity_pk"
+      },
+      {
+        "id": "87ecdbfe-a9da-46e4-9b51-477258bd2677",
+        "name": "Chef's Recommendations",
+        "description": "Chef's handpicked dishes for a culinary delight",
+        "price": 91989,
+        "availability": true,
+        "created_at": "2023-09-04T01:23:50.547Z",
+        "updated_at": "2023-09-03T19:52:55.281Z",
+        "hotel_id": "main_entity_pk"
+      }
+    ],
+    "menu_invitation": [
+      {
+        "id": "7fe2a1f1-b76a-45ed-88a8-c4f4b63a7d69",
+        "status": "Pending",
+        "created_at": "2023-09-03T19:00:03.121Z",
+        "updated_at": "2023-09-03T10:37:11.527Z",
+        "menu_id": "f99d04a0-00db-4c1f-98bd-ca4ab8dd60bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "786ddb4d-2418-4b75-babf-379f2c042d6e",
+        "status": "Accepted",
+        "created_at": "2023-09-03T16:04:34.471Z",
+        "updated_at": "2023-09-03T23:04:40.377Z",
+        "menu_id": "6ea8db8f-63a2-4d8d-8d21-0c4fb9c39342",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbcc7a35-3da1-40bd-96cf-221ff9772964",
+        "status": "Declined",
+        "created_at": "2023-09-03T14:55:58.934Z",
+        "updated_at": "2023-09-03T13:24:43.008Z",
+        "menu_id": "dda873b4-3ef8-452a-893b-5d737a485b9e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dd2a6f2-99f4-4764-8a39-c010aae2e9e2",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T00:09:18.472Z",
+        "updated_at": "2023-09-04T00:13:58.170Z",
+        "menu_id": "6ea8db8f-63a2-4d8d-8d21-0c4fb9c39342",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bec28567-c680-4ab6-acbb-b208489db524",
+        "status": "Expired",
+        "created_at": "2023-09-03T16:38:19.270Z",
+        "updated_at": "2023-09-03T19:59:25.192Z",
+        "menu_id": "6ea8db8f-63a2-4d8d-8d21-0c4fb9c39342",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee_data": [
+      {
+        "id": "a761521c-bf93-4bd4-b228-0aa563401db9",
+        "position": "Manager",
+        "start_date": "2023-09-03T22:42:06.663Z",
+        "end_date": "2023-09-03T23:46:26.341Z",
+        "created_at": "2023-09-03T10:23:26.491Z",
+        "updated_at": "2023-09-04T00:16:58.116Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00a93a23-3c81-4a49-8a6b-35c1a04dff32",
+        "position": "Supervisor",
+        "start_date": "2023-09-03T10:23:20.662Z",
+        "end_date": "2023-09-03T21:36:17.203Z",
+        "created_at": "2023-09-03T10:48:37.149Z",
+        "updated_at": "2023-09-03T10:52:25.815Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d2891fc-f786-494a-a37b-88c2012b155d",
+        "position": "Front Desk Agent",
+        "start_date": "2023-09-04T00:42:56.114Z",
+        "end_date": "2023-09-04T04:04:05.109Z",
+        "created_at": "2023-09-03T22:17:00.520Z",
+        "updated_at": "2023-09-03T14:00:18.035Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d5fdcbb-cd32-4eeb-a6b7-45263ed66ae0",
+        "position": "Housekeeping Staff",
+        "start_date": "2023-09-04T08:53:11.882Z",
+        "end_date": "2023-09-04T00:42:01.666Z",
+        "created_at": "2023-09-04T01:45:13.568Z",
+        "updated_at": "2023-09-03T18:50:52.847Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9049157a-37f0-47aa-99a6-a495a055df35",
+        "position": "Chef",
+        "start_date": "2023-09-04T08:33:19.294Z",
+        "end_date": "2023-09-03T21:49:19.873Z",
+        "created_at": "2023-09-03T09:26:58.805Z",
+        "updated_at": "2023-09-03T11:16:11.856Z",
+        "hotel_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "16f98ff7-a20c-4a70-9e31-a6789564ac2b",
+        "email": "Stefan_Kerluke88@hotmail.com",
+        "firstName": "Vickie",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67410745",
+        "tenantId": null
+      },
+      {
+        "reference": "d17bf31c-53b6-4703-b750-b4797417e5ea",
+        "email": "Chelsea_Thompson@hotmail.com",
+        "firstName": "Teagan",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/915.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37ad2caa-88f6-41a6-8b86-0e52c03eb02f",
+        "email": "Mireya7@hotmail.com",
+        "firstName": "Pete",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77334743",
+        "tenantId": null
+      },
+      {
+        "reference": "8d115726-20c5-4e2b-834d-002b9baf076e",
+        "email": "Lisette_Kling@yahoo.com",
+        "firstName": "Emanuel",
+        "lastName": "Jacobson-Moore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23901086",
+        "tenantId": null
+      },
+      {
+        "reference": "551da961-1db0-4eb8-8fb0-82ec0a633d05",
+        "email": "Gregg.Torphy@hotmail.com",
+        "firstName": "Rebeca",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/110.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
